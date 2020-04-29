@@ -1,0 +1,8 @@
+<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="Tool_External Tools_php_cs_fixer">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Tool_External Tools_php_cs_hyperf">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+</keymap>

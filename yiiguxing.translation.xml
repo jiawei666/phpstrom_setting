@@ -1,0 +1,34 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="完成" />
+      <item value="朗读" />
+      <item value="朗诵" />
+      <item value="生产环境" />
+      <item value="十一" />
+      <item value="女" />
+      <item value="男" />
+      <item value="操作" />
+      <item value="分钟" />
+      <item value="漂浮" />
+      <item value="悬浮" />
+      <item value="停顿" />
+      <item value="前缀" />
+      <item value="原数据" />
+      <item value="用户自定义" />
+      <item value="abandoned" />
+      <item value="monitor" />
+      <item value="rest" />
+      <item value="拼团" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="7" />
+        <entry key="ENGLISH" value="8" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+  </component>
+</application>

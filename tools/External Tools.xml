@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="php_cs_fixer" description="代码格式化" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.composer/vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix &quot;$FileDir$/$FileName$&quot; --config=/var/www/54qj-api/.php_cs --using-cache=no" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="php_cs_hyperf" description="hyperf自带的代码格式化" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/var/www/hyperf-skeleton/vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix &quot;$FileDir$/$FileName$&quot; --config=/var/www/hyperf-skeleton/.php_cs --using-cache=no" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
